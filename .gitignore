@@ -16,3 +16,4 @@ TODOs.md
 .eslintcache
 .vscode
 package-lock.json
+.vitepress/cache/
