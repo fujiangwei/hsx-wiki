@@ -9,8 +9,8 @@ export const github = 'https://github.com/';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  // 访问基础路径
-  base: '/',
+  // 访问基础路径,部署gitee/github需要配置，名称同仓库名，服务器部署不需要
+  base: '/hsx-wiki/',
   // 名称
   title: "花拾夕的知识库",
   description: "个人技术知识库，分享体系化的技术知识，以及记录一些碎片化的个人心得",
